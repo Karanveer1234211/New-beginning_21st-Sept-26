@@ -1,0 +1,164 @@
+feature,resolved_at,usable_from,lookback_bars,uses_future,cross_sectional,warmup_bars,in_X,hypothesis
+Comb_ATRhigh__EMA20neg,session t close 15:30 IST,session t+1 open 09:15 IST,20.0,False,False,312,True,hand-built regime interaction (ABSOLUTE thresholds - see note)
+Comb_ATRlow__EMA20pos,session t close 15:30 IST,session t+1 open 09:15 IST,20.0,False,False,312,True,hand-built regime interaction (ABSOLUTE thresholds - see note)
+Comb_GapDown__CPR_Tmr_Below,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,hand-built regime interaction (ABSOLUTE thresholds - see note)
+Comb_GapUp__CPR_Tmr_Above,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,hand-built regime interaction (ABSOLUTE thresholds - see note)
+Comb_RSIslopePos__ADX_15_25,session t close 15:30 IST,session t+1 open 09:15 IST,25.0,False,False,312,True,hand-built regime interaction (ABSOLUTE thresholds - see note)
+DOW_0,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,day-of-week calendar effect
+DOW_1,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,day-of-week calendar effect
+DOW_2,session t close 15:30 IST,session t+1 open 09:15 IST,2.0,False,False,312,True,day-of-week calendar effect
+DOW_3,session t close 15:30 IST,session t+1 open 09:15 IST,3.0,False,False,312,True,day-of-week calendar effect
+DOW_6,session t close 15:30 IST,session t+1 open 09:15 IST,6.0,False,False,312,True,day-of-week calendar effect
+D_WQ_12,session t close 15:30 IST,session t+1 open 09:15 IST,60.0,False,False,312,True,WorldQuant alpha; price-volume relationship
+D_WQ_13,session t close 15:30 IST,session t+1 open 09:15 IST,60.0,False,False,312,True,WorldQuant alpha; price-volume relationship
+D_WQ_16,session t close 15:30 IST,session t+1 open 09:15 IST,60.0,False,False,312,True,WorldQuant alpha; price-volume relationship
+D_WQ_19,session t close 15:30 IST,session t+1 open 09:15 IST,60.0,False,False,312,True,WorldQuant alpha; price-volume relationship
+D_WQ_20,session t close 15:30 IST,session t+1 open 09:15 IST,60.0,False,False,312,True,WorldQuant alpha; price-volume relationship
+D_WQ_23,session t close 15:30 IST,session t+1 open 09:15 IST,60.0,False,False,312,True,WorldQuant alpha; price-volume relationship
+D_WQ_26,session t close 15:30 IST,session t+1 open 09:15 IST,60.0,False,False,312,True,WorldQuant alpha; price-volume relationship
+D_WQ_29,session t close 15:30 IST,session t+1 open 09:15 IST,60.0,False,False,312,True,WorldQuant alpha; price-volume relationship
+D_WQ_3,session t close 15:30 IST,session t+1 open 09:15 IST,60.0,False,False,312,True,WorldQuant alpha; price-volume relationship
+D_WQ_33,session t close 15:30 IST,session t+1 open 09:15 IST,60.0,False,False,312,True,WorldQuant alpha; price-volume relationship
+D_WQ_35,session t close 15:30 IST,session t+1 open 09:15 IST,60.0,False,False,312,True,WorldQuant alpha; price-volume relationship
+D_WQ_38,session t close 15:30 IST,session t+1 open 09:15 IST,60.0,False,False,312,True,WorldQuant alpha; price-volume relationship
+D_WQ_40,session t close 15:30 IST,session t+1 open 09:15 IST,60.0,False,False,312,True,WorldQuant alpha; price-volume relationship
+D_WQ_41,session t close 15:30 IST,session t+1 open 09:15 IST,60.0,False,False,312,True,WorldQuant alpha; price-volume relationship
+D_WQ_44,session t close 15:30 IST,session t+1 open 09:15 IST,60.0,False,False,312,True,WorldQuant alpha; price-volume relationship
+D_WQ_6,session t close 15:30 IST,session t+1 open 09:15 IST,60.0,False,False,312,True,WorldQuant alpha; price-volume relationship
+D_adx14,session t close 15:30 IST,session t+1 open 09:15 IST,14.0,False,False,312,True,trend strength irrespective of direction
+D_amihud_20,session t close 15:30 IST,session t+1 open 09:15 IST,20.0,False,False,312,True,price impact per rupee traded; illiquidity
+D_amihud_60,session t close 15:30 IST,session t+1 open 09:15 IST,60.0,False,False,312,True,price impact per rupee traded; illiquidity
+D_atr14,session t close 15:30 IST,session t+1 open 09:15 IST,14.0,False,False,312,True,realised volatility as a range measure
+D_atr30,session t close 15:30 IST,session t+1 open 09:15 IST,30.0,False,False,312,True,realised volatility as a range measure
+D_atr_pct,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,realised volatility as a range measure
+D_atr_pct_z252,session t close 15:30 IST,session t+1 open 09:15 IST,252.0,False,False,312,True,realised volatility as a range measure
+D_atr_ratio_14_30,session t close 15:30 IST,session t+1 open 09:15 IST,30.0,False,False,312,True,realised volatility as a range measure
+D_bb_bw_20,session t close 15:30 IST,session t+1 open 09:15 IST,20.0,False,False,312,True,position within and width of the volatility envelope
+D_bb_pctB_20,session t close 15:30 IST,session t+1 open 09:15 IST,20.0,False,False,312,True,position within and width of the volatility envelope
+D_body_ratio,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,candle body share of range; conviction
+D_body_ratio_rmean20,session t close 15:30 IST,session t+1 open 09:15 IST,20.0,False,False,312,True,candle body share of range; conviction
+D_body_ratio_rmean50,session t close 15:30 IST,session t+1 open 09:15 IST,50.0,False,False,312,True,candle body share of range; conviction
+D_breakout_high_20,session t close 15:30 IST,session t+1 open 09:15 IST,20.0,False,False,312,True,channel breakout event
+D_breakout_high_50,session t close 15:30 IST,session t+1 open 09:15 IST,50.0,False,False,312,True,channel breakout event
+D_breakout_low_20,session t close 15:30 IST,session t+1 open 09:15 IST,20.0,False,False,312,True,channel breakout event
+D_breakout_low_50,session t close 15:30 IST,session t+1 open 09:15 IST,50.0,False,False,312,True,channel breakout event
+D_close_roll_slope_20,session t close 15:30 IST,session t+1 open 09:15 IST,20.0,False,False,312,True,rolling regression slope of close
+D_close_roll_slope_20_rstd10,session t close 15:30 IST,session t+1 open 09:15 IST,20.0,False,False,312,True,rolling regression slope of close
+D_close_roll_slope_20_rstd20,session t close 15:30 IST,session t+1 open 09:15 IST,20.0,False,False,312,True,rolling regression slope of close
+D_close_roll_slope_50,session t close 15:30 IST,session t+1 open 09:15 IST,50.0,False,False,312,True,rolling regression slope of close
+D_cmf20,session t close 15:30 IST,session t+1 open 09:15 IST,20.0,False,False,312,True,volume-weighted accumulation pressure
+D_cmf20_rmean50,session t close 15:30 IST,session t+1 open 09:15 IST,50.0,False,False,312,True,volume-weighted accumulation pressure
+D_compress_state,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,compression regime state
+D_cpr_bc,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,pivot geometry; where tomorrow's decision levels sit
+D_cpr_pivot,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,pivot geometry; where tomorrow's decision levels sit
+D_cpr_tc,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,pivot geometry; where tomorrow's decision levels sit
+D_cpr_vs_yday_code,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,pivot geometry; where tomorrow's decision levels sit
+D_cpr_width_pct,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,pivot geometry; where tomorrow's decision levels sit
+D_daily_trend,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,one-bar structure direction
+D_days_since_5pct_up,session t close 15:30 IST,session t+1 open 09:15 IST,5.0,False,False,312,True,recency of a named event
+D_days_since_boh_20,session t close 15:30 IST,session t+1 open 09:15 IST,20.0,False,False,312,True,recency of a named event
+D_days_since_bol_20,session t close 15:30 IST,session t+1 open 09:15 IST,20.0,False,False,312,True,recency of a named event
+D_dist_from_20h,session t close 15:30 IST,session t+1 open 09:15 IST,20.0,False,False,312,True,"distance from a structural anchor, in ATRs"
+D_dist_from_20l,session t close 15:30 IST,session t+1 open 09:15 IST,20.0,False,False,312,True,"distance from a structural anchor, in ATRs"
+D_dist_from_52wh,session t close 15:30 IST,session t+1 open 09:15 IST,252.0,False,False,312,True,"distance from a structural anchor, in ATRs"
+D_dist_from_52wl,session t close 15:30 IST,session t+1 open 09:15 IST,252.0,False,False,312,True,"distance from a structural anchor, in ATRs"
+D_dollar_vol,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,"traded value, a liquidity scale"
+D_donch_pos_20,session t close 15:30 IST,session t+1 open 09:15 IST,20.0,False,False,312,True,position within the recent price channel
+D_donch_pos_20_lag5,session t close 15:30 IST,session t+1 open 09:15 IST,20.0,False,False,312,True,position within the recent price channel
+D_donch_pos_20_rmean50,session t close 15:30 IST,session t+1 open 09:15 IST,50.0,False,False,312,True,position within the recent price channel
+D_donch_pos_50,session t close 15:30 IST,session t+1 open 09:15 IST,50.0,False,False,312,True,position within the recent price channel
+D_donch_pos_50_lag5,session t close 15:30 IST,session t+1 open 09:15 IST,50.0,False,False,312,True,position within the recent price channel
+D_donch_pos_50_rmean50,session t close 15:30 IST,session t+1 open 09:15 IST,50.0,False,False,312,True,position within the recent price channel
+D_dow,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,"day-of-week index, calendar effect"
+D_downside_dev_60,session t close 15:30 IST,session t+1 open 09:15 IST,60.0,False,False,312,True,downside-only volatility
+D_drawdown_252,session t close 15:30 IST,session t+1 open 09:15 IST,252.0,False,False,312,True,distance below the trailing peak
+D_dvol_z20,session t close 15:30 IST,session t+1 open 09:15 IST,20.0,False,False,312,True,traded value vs its own recent distribution
+D_dvol_z252,session t close 15:30 IST,session t+1 open 09:15 IST,252.0,False,False,312,True,traded value vs its own recent distribution
+D_dvol_z50,session t close 15:30 IST,session t+1 open 09:15 IST,50.0,False,False,312,True,traded value vs its own recent distribution
+D_ema100,session t close 15:30 IST,session t+1 open 09:15 IST,100.0,False,False,312,True,trend location vs an exponentially weighted level
+D_ema20,session t close 15:30 IST,session t+1 open 09:15 IST,20.0,False,False,312,True,trend location vs an exponentially weighted level
+D_ema20_angle_deg,session t close 15:30 IST,session t+1 open 09:15 IST,20.0,False,False,312,True,trend angle of the 20 EMA
+D_ema20_angle_z252,session t close 15:30 IST,session t+1 open 09:15 IST,252.0,False,False,312,True,trend angle of the 20 EMA
+D_ema50,session t close 15:30 IST,session t+1 open 09:15 IST,50.0,False,False,312,True,trend location vs an exponentially weighted level
+D_ema_stack_20_50_100,session t close 15:30 IST,session t+1 open 09:15 IST,100.0,False,False,312,True,trend location vs an exponentially weighted level
+D_gap_pct,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,overnight repricing
+D_hh_run,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,consecutive higher highs
+D_hl_run,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,consecutive higher lows
+D_inside_day,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,range contraction / coiling
+D_intraday_ret_pct,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,intraday leg of the day's return
+D_is_warmup,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,False,bookkeeping: indicator not yet converged
+D_lh_run,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,consecutive lower highs
+D_ll_run,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,consecutive lower lows
+D_macd,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,trend acceleration via fast-slow EMA spread
+D_macd_hist,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,trend acceleration via fast-slow EMA spread
+D_macd_hist_rstd10,session t close 15:30 IST,session t+1 open 09:15 IST,10.0,False,False,312,True,trend acceleration via fast-slow EMA spread
+D_macd_signal,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,trend acceleration via fast-slow EMA spread
+D_mdi14,session t close 15:30 IST,session t+1 open 09:15 IST,14.0,False,False,312,True,"directional pressure, downside"
+D_mdi14_diff1,session t close 15:30 IST,session t+1 open 09:15 IST,14.0,False,False,312,True,"directional pressure, downside"
+D_mdi14_diff5,session t close 15:30 IST,session t+1 open 09:15 IST,14.0,False,False,312,True,"directional pressure, downside"
+D_mdi14_rrank10,session t close 15:30 IST,session t+1 open 09:15 IST,14.0,False,False,312,True,"directional pressure, downside"
+D_mdi14_rrank20,session t close 15:30 IST,session t+1 open 09:15 IST,20.0,False,False,312,True,"directional pressure, downside"
+D_midpoint_slope,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,midpoint drift as a trend proxy
+D_monthly_trend,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,monthly structure direction
+D_n_5pct_up_252,session t close 15:30 IST,session t+1 open 09:15 IST,252.0,False,False,312,True,symbol's own base rate for the labelled event
+D_n_5pct_up_60,session t close 15:30 IST,session t+1 open 09:15 IST,60.0,False,False,312,True,symbol's own base rate for the labelled event
+D_nr_day,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,narrow-range compression
+D_nr_expand,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,narrow-range compression
+D_nr_length,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,narrow-range compression
+D_obv,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,cumulative volume flow confirming price
+D_obv_slope,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,cumulative volume flow confirming price
+D_oli,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,open location within the bar
+D_overnight_share,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,overnight share of the day's move
+D_pdi14,session t close 15:30 IST,session t+1 open 09:15 IST,14.0,False,False,312,True,"directional pressure, upside"
+D_pos_in_52w_range,session t close 15:30 IST,session t+1 open 09:15 IST,252.0,False,False,312,True,position within a structural range
+D_prev_close,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,previous-bar reference level
+D_prev_high,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,previous-bar reference level
+D_prev_inside_day,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,previous-bar reference level
+D_prev_low,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,previous-bar reference level
+D_range_pct,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,"bar range, absolute and vs recent volatility"
+D_range_to_atr14,session t close 15:30 IST,session t+1 open 09:15 IST,14.0,False,False,312,True,"bar range, absolute and vs recent volatility"
+D_realvol_20,session t close 15:30 IST,session t+1 open 09:15 IST,20.0,False,False,312,True,close-to-close realised volatility
+D_realvol_60,session t close 15:30 IST,session t+1 open 09:15 IST,60.0,False,False,312,True,close-to-close realised volatility
+D_realvol_ratio_20_60,session t close 15:30 IST,session t+1 open 09:15 IST,60.0,False,False,312,True,close-to-close realised volatility
+D_resistance1,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,classical resistance level
+D_resistance2,session t close 15:30 IST,session t+1 open 09:15 IST,2.0,False,False,312,True,classical resistance level
+D_ret_5d_roll_std,session t close 15:30 IST,session t+1 open 09:15 IST,55.0,False,False,312,True,realised dispersion of 5-day returns
+D_ret_kurt_60,session t close 15:30 IST,session t+1 open 09:15 IST,60.0,False,False,312,True,return distribution tail weight
+D_ret_skew_60,session t close 15:30 IST,session t+1 open 09:15 IST,60.0,False,False,312,True,return distribution asymmetry
+D_rsi14,session t close 15:30 IST,session t+1 open 09:15 IST,14.0,False,False,312,True,momentum exhaustion / mean-reversion pressure
+D_rsi14_obv_x,session t close 15:30 IST,session t+1 open 09:15 IST,14.0,False,False,312,True,momentum-volume interaction
+D_rsi14_z252,session t close 15:30 IST,session t+1 open 09:15 IST,252.0,False,False,312,True,momentum exhaustion / mean-reversion pressure
+D_rsi7,session t close 15:30 IST,session t+1 open 09:15 IST,7.0,False,False,312,True,momentum exhaustion / mean-reversion pressure
+D_rsi7_gt_rsi14,session t close 15:30 IST,session t+1 open 09:15 IST,14.0,False,False,312,True,momentum exhaustion / mean-reversion pressure
+D_rsi7_obv_x,session t close 15:30 IST,session t+1 open 09:15 IST,7.0,False,False,312,True,"momentum-volume interaction, fast"
+D_slope_stability,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,trend slope and its stability
+D_slope_stability_rmean50,session t close 15:30 IST,session t+1 open 09:15 IST,50.0,False,False,312,True,trend slope and its stability
+D_slope_stability_rstd10,session t close 15:30 IST,session t+1 open 09:15 IST,10.0,False,False,312,True,trend slope and its stability
+D_slope_stability_rstd20,session t close 15:30 IST,session t+1 open 09:15 IST,20.0,False,False,312,True,trend slope and its stability
+D_sma20,session t close 15:30 IST,session t+1 open 09:15 IST,20.0,False,False,312,True,trend location vs a simple level
+D_sma200,session t close 15:30 IST,session t+1 open 09:15 IST,200.0,False,False,312,True,trend location vs a simple level
+D_sma5,session t close 15:30 IST,session t+1 open 09:15 IST,5.0,False,False,312,True,trend location vs a simple level
+D_sma50,session t close 15:30 IST,session t+1 open 09:15 IST,50.0,False,False,312,True,trend location vs a simple level
+D_structure_trend_code,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,higher-high / lower-low structural regime
+D_support1,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,classical support level
+D_support2,session t close 15:30 IST,session t+1 open 09:15 IST,2.0,False,False,312,True,classical support level
+D_upside_vol_ratio,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,upside vs downside volatility asymmetry
+D_vol_surge_20,session t close 15:30 IST,session t+1 open 09:15 IST,20.0,False,False,312,True,abnormal volume event
+D_vol_surge_50,session t close 15:30 IST,session t+1 open 09:15 IST,50.0,False,False,312,True,abnormal volume event
+D_vol_yz_20,session t close 15:30 IST,session t+1 open 09:15 IST,20.0,False,False,312,True,Yang-Zhang volatility using the whole bar
+D_vol_yz_50,session t close 15:30 IST,session t+1 open 09:15 IST,50.0,False,False,312,True,Yang-Zhang volatility using the whole bar
+D_vol_z252,session t close 15:30 IST,session t+1 open 09:15 IST,252.0,False,False,312,True,volume vs its own recent distribution
+D_weekly_trend,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,weekly structure direction
+D_weekly_vpoc,session t close 15:30 IST,session t+1 open 09:15 IST,10.0,False,False,312,True,prior completed week's volume point of control
+D_wick_skew,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,candle wick asymmetry; rejection
+W_close_pos,"prior completed week, Fri 15:30 IST",session t+1 open 09:15 IST,10.0,False,False,312,True,weekly close position in the weekly range
+W_ret_13w,"prior completed week, Fri 15:30 IST",session t+1 open 09:15 IST,70.0,False,False,312,True,"multi-week momentum, prior completed weeks only"
+W_ret_4w,"prior completed week, Fri 15:30 IST",session t+1 open 09:15 IST,25.0,False,False,312,True,"multi-week momentum, prior completed weeks only"
+W_vol_vs_4w,"prior completed week, Fri 15:30 IST",session t+1 open 09:15 IST,25.0,False,False,312,True,weekly volume vs its recent weekly average
+close,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,raw
+high,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,raw
+low,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,raw
+open,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,raw
+ret_5d_close_pct,session t+5 close 15:30 IST,"NEVER - label, not a feature",5.0,True,False,312,False,LABEL: forward 5-day close-to-close return
+timestamp,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,False,bookkeeping: session date
+volume,session t close 15:30 IST,session t+1 open 09:15 IST,,False,False,312,True,raw
