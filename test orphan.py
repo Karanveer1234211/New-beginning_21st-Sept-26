@@ -47,11 +47,30 @@ o4,d4=dc.trim_orphan_bars(late)
 assert len(d4)==0
 print(f"  ok   late listing left alone (first bar {pd.to_datetime(o4.timestamp.iloc[0]).date()})\n")
 
-print("=== safety rail: refuse to trim an implausible amount ===")
-many=pd.DatetimeIndex(pd.bdate_range("2016-01-01","2016-12-31"))[:80]
-df5=mk(many.append(pd.DatetimeIndex(pd.bdate_range("2024-01-01","2026-09-21"))).sort_values())
-o5,d5=dc.trim_orphan_bars(df5)
-print(f"  80 leading dense bars + gap: dropped={len(d5)} (cap is {dc.ORPHAN_MAX_LEADING})")
-assert len(d5)<=dc.ORPHAN_MAX_LEADING
-print("  ok   capped\n")
+print("=== real cache shapes (FUSION / ELIN / KOVAI / GOODYEAR) ===")
+def build(spec):
+    out=[]
+    for yr,n in spec.items():
+        days=pd.bdate_range(f"{yr}-01-01",f"{yr}-12-31"); step=max(1,len(days)//max(n,1))
+        out.extend(days[::step][:n])
+    return pd.DatetimeIndex(sorted(out))
+real={
+ "FUSION":({2016:123,2022:34,2023:246,2024:249,2025:249,2026:178},123),
+ "ELIN":({2015:183,2022:1,2023:246,2024:249,2025:249,2026:178},183),
+ "KOVAI":({2015:1,2016:211,2017:223,2021:102,2022:248,2023:201,2024:249,2025:249,2026:107},435),
+ "DELHIVERY":({2016:8,2022:153,2023:246,2024:249,2025:249,2026:178},8),
+}
+for sym,(spec,expect) in real.items():
+    o,d=dc.trim_orphan_bars(mk(build(spec)))
+    print(f"  {sym:<10} dropped={len(d):<4} expected={expect:<4} new first={pd.to_datetime(o.timestamp.iloc[0]).date()}")
+    assert len(d)==expect, f"{sym}: {len(d)} != {expect}"
+print("  ok   all pre-listing blocks removed regardless of size\n")
+
+print("=== safety rail: never trim below a year of history ===")
+tiny=mk(build({2015:300,2026:100}))
+o,d=dc.trim_orphan_bars(tiny)
+print(f"  300 old bars + 100 recent: dropped={len(d)} (would leave <{dc.ORPHAN_MIN_REMAINING})")
+assert len(d)==0
+print("  ok   refuses rather than gut the series\n")
+
 print("ORPHAN DETECTION VERIFIED")
